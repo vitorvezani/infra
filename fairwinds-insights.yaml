@@ -1,8 +1,0 @@
-# These images will be scanned for vulnerabilities.
-images:
-  docker:
-  - nginx:1.18-alpine
-
-manifests:
-  yaml:
-    - ./passing.yaml
