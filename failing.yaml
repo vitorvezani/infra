@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: alpine:3.13.0
+        image: alpine:3.15
         ports:
         - containerPort: 80
         securityContext:
